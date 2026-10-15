@@ -1,0 +1,19 @@
+{
+  "version":"2026-10-14",
+  "manuals":[
+    {"id":"NVE41300_05","name":"ATV320 编程手册","edition":"05 · 07/2024","pages":440,"url":"https://www.schneider-electric.cn/zh/download/document/NVE41300/"},
+    {"id":"NVE41294_09","name":"ATV320 安装手册","edition":"09 · 04/2025","pages":194,"url":"https://www.schneider-electric.cn/zh/download/document/NVE41294/"},
+    {"id":"NVE50473_03","name":"ATV320 安全功能手册","edition":"03 · 04/2019","pages":98,"url":"https://www.schneider-electric.cn/zh/download/document/NVE50473/"}
+  ],
+  "cases":[
+    {"code":"OCF","title":"过电流","page":395,"heading":"[过电流] OCF","keywords":["过流","过电流","电流过大","堵转","机械卡住","机械堵塞","加速停机"],"causes":["参数设置、负载匹配或机械堵塞需核对。"],"checks":["核对电机控制与设置参数。","检查设备与负载的匹配情况及机械状态。"],"question":{"key":"recentChange","label":"最近是否调整参数或增加负载？","options":["未调整","调整过参数","负载发生变化","不确定"]}},
+    {"code":"OHF","title":"变频器过热","page":395,"heading":"[变频器过热] OHF","keywords":["变频器过热","设备过热","温度高","发烫","通风","风扇","散热","高温"],"causes":["变频器温度过高。"],"checks":["核对负载、通风和环境温度。","冷却条件满足后再由合格人员评估重启。"],"question":{"key":"cooling","label":"通风与环境温度的检查情况？","options":["尚未检查","通风受阻","环境温度偏高","未见异常"]}},
+    {"code":"OLF","title":"电机过载","page":395,"heading":"[电机过载] OLF","keywords":["电机过载","过载","电机发热","持续电流","电机过热","设备过热"],"causes":["电机电流长期偏大可能触发该条目。"],"checks":["核对电机热保护设置与实际负载。","冷却后再评估重启条件。"],"question":{"key":"load","label":"停机前的负载情况？","options":["尚未检查","负载增大","负载无明显变化","不确定"]}},
+    {"code":"OBF","title":"直流总线过电压","page":394,"heading":"[直流总线过电压] OBF","keywords":["减速","制动","直流总线","母线过压","直流过压","过压"],"causes":["急制动、驱动负载或供电偏高需区分。"],"checks":["核对减速过程和供电状况。","由合格人员按手册评估制动配置。"],"question":{"key":"deceleration","label":"报警是否发生在减速或制动时？","options":["是","否","不确定"]}},
+    {"code":"OSF","title":"供电电源过电压","page":396,"heading":"[供电电源过电压] OSF","keywords":["供电过压","电源过高","供电电压高","电压过高","过压","电源干扰"],"causes":["供电偏高或受干扰需核对。"],"checks":["由合格人员按安全规程检查供电电压。"],"question":{"key":"supply","label":"是否已有供电异常的检查记录？","options":["尚未检查","已记录偏高","已记录干扰","未见异常"]}},
+    {"code":"USF","title":"输入欠压","page":402,"heading":"[输入欠压] USF","keywords":["欠压","电压低","供电不足","瞬时掉电","电压下降"],"causes":["供电偏低或瞬时下降需核对。"],"checks":["由合格人员核对供电与欠压处理设置。"],"question":{"key":"supply","label":"供电异常是持续还是瞬时出现？","options":["尚未检查","持续偏低","瞬时下降","不确定"]}},
+    {"code":"SLF1","title":"Modbus 通讯中断","page":399,"heading":"[Modbus 通讯中断] SLF1","keywords":["modbus","通信中断","通讯中断","通信超时","总线掉线","通讯掉线"],"causes":["Modbus总线通信丢失。"],"checks":["检查通信总线和超时设置。","进一步核对对应Modbus手册。"],"question":{"key":"connection","label":"中断前是否改动通信连接或超时设置？","options":["未改动","连接发生变化","改过超时设置","不确定"]}},
+    {"code":"SCF1","title":"电机短路","page":398,"heading":"[电机短路] SCF1","keywords":["短路","绝缘","输出接地","电机短路"],"causes":["输出回路短路或接地需专业检查。"],"checks":["停止自行复位，交由合格人员检查电缆与电机绝缘。"],"question":{"key":"qualified","label":"是否已转交具备资质的维修人员？","options":["尚未转交","已转交","等待专业人员"]}},
+    {"code":"SAFF","title":"安全功能错误","page":398,"heading":"[安全功能错误] SAFF","keywords":["安全功能","安全错误","saff","sls","ss1"],"causes":["安全配置或阈值相关问题需按专用手册核对。"],"checks":["转交专业人员核对安全功能配置与专用手册。","必要时联系厂家支持。"],"question":{"key":"qualified","label":"是否已有安全功能配置的专业检查记录？","options":["尚未检查","已转交专业人员","已联系厂家"]}}
+  ]
+}

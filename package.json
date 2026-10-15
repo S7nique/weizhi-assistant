@@ -1,0 +1,11 @@
+{
+  "name": "weizhi-desktop-workbench",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/core.test.mjs tests/frontend.test.mjs tests/ai_frontend.test.mjs tests/manuals_frontend.test.mjs"
+  },
+  "devDependencies": {
+    "linkedom": "^0.18.13"
+  }
+}

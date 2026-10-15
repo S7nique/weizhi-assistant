@@ -1,0 +1,221 @@
+%PDF-1.3
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 6
+/Kids [ 4 0 R 7 0 R 10 0 R 13 0 R 16 0 R 19 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Type /Page
+/Resources <<
+/Font <<
+/F1 5 0 R
+>>
+>>
+/MediaBox [ 0.0 0.0 595 842 ]
+/Parent 2 0 R
+/Contents 6 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+6 0 obj
+<<
+/Length 87
+>>
+stream
+BT /F1 12 Tf 40 760 Td (E202 Overtemperature. Simulated test, cause unconfirmed.) Tj ET
+endstream
+endobj
+7 0 obj
+<<
+/Type /Page
+/Resources <<
+/Font <<
+/F1 8 0 R
+>>
+>>
+/MediaBox [ 0.0 0.0 595 842 ]
+/Parent 2 0 R
+/Contents 9 0 R
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+9 0 obj
+<<
+/Length 53
+>>
+stream
+BT /F1 12 Tf 40 760 Td (E2020 Different alarm.) Tj ET
+endstream
+endobj
+10 0 obj
+<<
+/Type /Page
+/Resources <<
+/Font <<
+/F1 11 0 R
+>>
+>>
+/MediaBox [ 0.0 0.0 595 842 ]
+/Parent 2 0 R
+/Contents 12 0 R
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+12 0 obj
+<<
+/Length 53
+>>
+stream
+BT /F1 12 Tf 40 760 Td (E202_1 Subgroup alarm.) Tj ET
+endstream
+endobj
+13 0 obj
+<<
+/Type /Page
+/Resources <<
+/Font <<
+/F1 14 0 R
+>>
+>>
+/MediaBox [ 0.0 0.0 595 842 ]
+/Parent 2 0 R
+/Contents 15 0 R
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+15 0 obj
+<<
+/Length 61
+>>
+stream
+BT /F1 12 Tf 40 760 Td (E202-1 Another subgroup alarm.) Tj ET
+endstream
+endobj
+16 0 obj
+<<
+/Type /Page
+/Resources <<
+/Font <<
+/F1 17 0 R
+>>
+>>
+/MediaBox [ 0.0 0.0 595 842 ]
+/Parent 2 0 R
+/Contents 18 0 R
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+18 0 obj
+<<
+/Length 82
+>>
+stream
+BT /F1 12 Tf 40 760 Td (2310 Overcurrent. Simulated test, no actual device.) Tj ET
+endstream
+endobj
+19 0 obj
+<<
+/Type /Page
+/Resources <<
+/Font <<
+/F1 20 0 R
+>>
+>>
+/MediaBox [ 0.0 0.0 595 842 ]
+/Parent 2 0 R
+/Contents 21 0 R
+>>
+endobj
+20 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+21 0 obj
+<<
+/Length 61
+>>
+stream
+BT /F1 12 Tf 40 760 Td (23100 Different numeric alarm.) Tj ET
+endstream
+endobj
+xref
+0 22
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000147 00000 n 
+0000000196 00000 n 
+0000000328 00000 n 
+0000000398 00000 n 
+0000000535 00000 n 
+0000000667 00000 n 
+0000000737 00000 n 
+0000000840 00000 n 
+0000000975 00000 n 
+0000001046 00000 n 
+0000001150 00000 n 
+0000001285 00000 n 
+0000001356 00000 n 
+0000001468 00000 n 
+0000001603 00000 n 
+0000001674 00000 n 
+0000001807 00000 n 
+0000001942 00000 n 
+0000002013 00000 n 
+trailer
+<<
+/Size 22
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+2125
+%%EOF
